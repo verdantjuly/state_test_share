@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 // 함수형 컴포넌트
+// useState 훅
 function FCounter() {
   const [count, setCount] = useState(0);
   const [isOn, setIsOn] = useState(false);

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+// useEffect 훅
 function Counter() {
   const [count, setCount] = useState(0);
   useEffect(() => {
