@@ -3,12 +3,12 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import NotificationList from "./components/NotificationList";
 import reportWebVitals from "./reportWebVitals";
-import FCounter from "./components/FCounter";
+import Counter from "./components/Counter";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <FCounter />
+    <Counter />
   </React.StrictMode>
 );
 
